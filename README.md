@@ -1,4 +1,4 @@
 EricDarve.github.io
 ===================
 
-Eric Darve
+Web repository for CME 213, Introduction to parallel computing
