@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>Ericdarve.github.io</title>
+    <title>CME213 Stanford Parallel Computing Class</title>
   </head>
 
   <body>
@@ -18,8 +18,8 @@
         <header class="inner">
           <a id="forkme_banner" href="https://github.com/EricDarve">View on GitHub</a>
 
-          <h1 id="project_title">Ericdarve.github.io</h1>
-          <h2 id="project_tagline">Eric Darve</h2>
+          <h1 id="project_title">CME 213 Introduction to parallel computing using MPI, openMP, and CUDA</h1>
+          <h2 id="project_tagline">Eric Darve, Stanford University</h2>
 
         </header>
     </div>
@@ -29,49 +29,87 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">    
 
+    <strong>CME 213, Stanford University</strong>
+
+    <p>Course description: this class will give hands on experience with programming multicore processors, graphics processing units (GPU), and parallel computers. Focus will be on the message passing interface (MPI, parallel clusters) and the compute unified device architecture (CUDA, GPU). Topics will include: network topologies, modeling communication times, collective communication operations, parallel efficiency, MPI, dense linear algebra using MPI. Symmetric multiprocessing (SMP), pthreads, openMP. CUDA, combining MPI and CUDA, dense linear algebra using CUDA, sort, reduce and scan using CUDA. Pre-requisites include: C and C++ programming language (object-oriented, templates) and numerical algorithms (linear algebra, Fourier transforms).</p>
+
     You can download all the material for this class by going to the <a href=https://github.com/EricDarve/cme213_material_2013>git hub repository</a>. The command to clone the site is simply:
 <pre><code>$ git clone https://github.com/EricDarve/cme213_material_2013.git
 </code></pre>
 
-        <h1>
-<a name="lecture-slides" class="anchor" href="#lecture-slides"><span class="octicon octicon-link"></span></a>Lecture Slides</h1>
+    <br>
 
-<h2>Lecture 1</h2>
+    <strong>Instructors:</strong>
 
-<p>Topics:</p>
+    <br>
 
-<p>Introduction to the class; syllabus; why we need parallelism; example of parallel program: summing up numbers</p>
+    <a href=http://engineering.stanford.edu/profile/darve>Eric Darve</a>, <a href=http://icme.stanford.edu/>Stanford University</a>
+
+    <br> 
+
+    <a href=http://www.linkedin.com/pub/erich-elsen/51/15a/6b1>Erich Elsen</a>, <a href=http://www.royal-caliber.com/>Royal Caliber</a>
+
+    <br>
+
+    <a href=https://github.com/myssa89>Sammy El Ghazzal</a>.
+
+<h2>Lecture Slides</h2>
+
+You can find the lecture slides in the folder <tt>Lecture_slides/</tt>.
+
+<h3>Lecture 1</h3>
+
+<p>Topics: introduction; syllabus; why we need parallelism; example of parallel program: summing up numbers</p>
 
 <p>Shared memory and multicore processors</p>
 
 <p>Introduction to Pthreads</p>
 
-<h2>Lecture 2</h2>
+<h3>Lecture 2</h3>
 
-<p>Creating and joining threads; example: multiplication of two matrices
-Mutexes; example: dot product</p>
+<p>Topics: Phreads; creating and joining threads; example: multiplication of two matrices; Mutexes; example: dot product</p>
 
-<h2>Lecture 3</h2>
+<h3>Lecture 3</h3>
 
-<p>Condition variables; example of a pizza restaurant and delivery; example with code sample; OpenMP; introduction; parallel regions
+<p>Topics: condition variables; example of a pizza restaurant and delivery; example with code sample
 </p>
 
-<h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+<p>OpenMP; introduction; parallel regions
+</p>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<h3>Lecture 4</h3>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+<p>Topics: OpenMP; parallel for loops; matrix multiplication; sections; single; tasks; master; critical; barrier; atomic; data sharing attributes; reduction clause
+</p>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+<h3>Lecture 5</h3>
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<p>Topics: fast multipole method; OpenMP and Pthreads implementations
+</p>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+<h3>Lecture 6</h3>
+
+<p>Topics: CUDA; threading model, basic commands, simple example programs, threads, blocks; timing; basic debugging techniques / printf / how nvcc works; unary function using templates
+</p>
+
+<h3>Lecture 7</h3>
+
+<p>Topics: warps; coalescing and performance impact; caching; shared memory; bank conflicts; example of matrix transpose
+</p>
+
+<h3>Lecture 8</h3>
+
+<p>Topics: reduce and scan algorithms; Work complexity vs. step complexity.</p>
+
+<p>Students were asked to group in team and find an efficient procedure to quickly add many numbers, and calculate a scan.
+</p>
+
+<p>There are no slides for this lecture.</p>
+
+<h3>Lecture 9</h3>
+
+<p>Topics: focus of lecture is on homework 3; finite-difference stencil; algorithm based on global memory; loop over y to increase data-reuse and arithmetic intensity; shared memory algorithm
+</p>
 
       </section>
     </div>
@@ -79,7 +117,7 @@ $ git checkout gh-pages
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+        <p><a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
 
