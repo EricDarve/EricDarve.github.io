@@ -16,7 +16,7 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-          <a id="forkme_banner" href="https://github.com/EricDarve">View on GitHub</a>
+          <a id="forkme_banner" href="https://github.com/EricDarve/cme213_material_2013">View on GitHub</a>
 
           <h1 id="project_title">CME 213 Introduction to parallel computing using MPI, openMP, and CUDA</h1>
           <h2 id="project_tagline">Eric Darve, Stanford University</h2>
@@ -29,9 +29,11 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">    
 
-    <strong>CME 213, Stanford University</strong>
+    <a href="http://explorecourses.stanford.edu/search?view=catalog&q=cme213"><strong>CME 213, Stanford University</strong></a>
 
     <p>Course description: this class will give hands on experience with programming multicore processors, graphics processing units (GPU), and parallel computers. Focus will be on the message passing interface (MPI, parallel clusters) and the compute unified device architecture (CUDA, GPU). Topics will include: network topologies, modeling communication times, collective communication operations, parallel efficiency, MPI, dense linear algebra using MPI. Symmetric multiprocessing (SMP), pthreads, openMP. CUDA, combining MPI and CUDA, dense linear algebra using CUDA, sort, reduce and scan using CUDA. Pre-requisites include: C and C++ programming language (object-oriented, templates) and numerical algorithms (linear algebra, Fourier transforms).</p>
+
+    <p>Spring 2013</p>
 
     You can download all the material for this class by going to the <a href=https://github.com/EricDarve/cme213_material_2013>git hub repository</a>. The command to clone the site is simply:
 <pre><code>$ git clone https://github.com/EricDarve/cme213_material_2013.git
@@ -51,53 +53,90 @@
 
     <br>
 
-    <a href=https://github.com/myssa89>Sammy El Ghazzal</a>.
+    <a href=https://github.com/myssa89>Sammy El Ghazzal</a>
 
-<h2>Lecture Slides</h2>
+    <br><br>
 
-You can find the lecture slides in the folder <tt>Lecture_slides/</tt>.
+In the <a href=https://github.com/EricDarve/cme213_material_2013>git hub repository</a>, you will find:
+<ul>
+  <li><a href="https://github.com/EricDarve/cme213_material_2013/tree/master/Lecture_slides">Lecture slides</a>.</li>
+  <li><a href="https://github.com/EricDarve/cme213_material_2013/tree/master/Homework">Homeworks</a>. There are 6 homeworks: pre-requisites, OpenMP, 3 CUDA, MPI</li>
+  <li><a href="https://github.com/EricDarve/cme213_material_2013/tree/master/Final_Project">Final Project</a>. In the folder <tt>Final_Project/</tt>. The final project is about writing a CUDA code to calculate <a href="http://en.wikipedia.org/wiki/Connected-component_labeling">connected components</a> in images.</li> 
+  <li><a href="https://github.com/EricDarve/cme213_material_2013/tree/master/Sample%20Code/CUDA">CUDA sample codes</a>.</li>
+  <li><a href="https://github.com/EricDarve/cme213_material_2013/tree/master/Sample%20Code/MPI">MPI sample codes</a>.</li>   
+</ul>
+Recommended reading for this class:
+<ul>
+  <li><a href="http://www.amazon.com/Parallel-Programming-Multicore-Cluster-ebook/dp/B00D9KEL26/ref=sr_1_2?ie=UTF8&qid=1371080011&sr=8-2&keywords=Parallel+Programming+for+Multicore+and+Cluster+Systems">Parallel Programming for Multicore and Cluster Systems</a>, Rauber
+and R&uuml;nger.</li>
+  <li><a href="http://www.amazon.com/Introduction-Parallel-Computing-2nd-Edition/dp/0201648652/ref=sr_1_cc_1?s=aps&ie=UTF8&qid=1371080057&sr=1-1-catcorr&keywords=Introduction+to+Parallel+Computing">Introduction to Parallel Computing</a>, Grama, Gupta, Karypis, Kumar.</li>
+  <li><a href="http://www.amazon.com/An-Introduction-Parallel-Programming-ebook/dp/B004IPPIP0/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1371080057&sr=1-1&keywords=Introduction+to+Parallel+Computing">Introduction to Parallel Programming</a>, Pacheco.</li>
+  <li><a href="http://www.amazon.com/Using-OpenMP-Programming-Engineering-Computation/dp/0262533022/ref=sr_1_1?s=books&ie=UTF8&qid=1371080174&sr=1-1&keywords=Using+OpenMP%3A+Portable+Shared+Memory+Parallel+Programming">Using OpenMP: Portable Shared Memory Parallel Programming</a>,
+Chapman, Jost, van der Pas.</li>
+  <li><a href="http://www.amazon.com/Parallel-Programming-OpenMP-Rohit-Chandra/dp/1558606718/ref=sr_1_1?s=books&ie=UTF8&qid=1371080208&sr=1-1&keywords=Parallel+Programming+in+OpenMP">Parallel Programming in OpenMP</a>, Chandra, Menon, Dagum, Kohr, Maydan, McDonald</li>
+  <li><a href="http://www.amazon.com/Art-Multiprocessor-Programming-Revised-Reprint/dp/0123973376/ref=sr_1_1?s=books&ie=UTF8&qid=1371080254&sr=1-1&keywords=The+Art+of+Multiprocessor+Programming">The Art of Multiprocessor Programming</a>, Herlihy, Shavit.</li>
+  <li><a href="http://www.amazon.com/CUDA-Example-Introduction-General-Purpose-Programming/dp/0131387685/ref=sr_1_1?s=books&ie=UTF8&qid=1371080279&sr=1-1&keywords=CUDA+by+Example%3A+An+Introduction+to+General-Purpose+GPU+Programming">CUDA by Example: An Introduction to General-Purpose GPU
+Programming</a>, Sanders, Kandrot</li>
+  <li><a href="http://www.amazon.com/CUDA-Handbook-Comprehensive-Guide-Programming/dp/0321809467/ref=sr_1_1?s=books&ie=UTF8&qid=1371080319&sr=1-1&keywords=CUDA+Handbook%3A+A+Comprehensive+Guide+to+GPU+Programming">CUDA Handbook: A Comprehensive Guide to GPU Programming</a>, Wilt</li>
+</ul>
 
-<h3>Lecture 1</h3>
+
+<h2><div id="slides">Lecture Slides</div></h2>
+
+You can find the <a href="https://github.com/EricDarve/cme213_material_2013/tree/master/Lecture_slides">lecture slides</a> on git.
+
+<br>
+
+List of topics:
+<ul>
+<li><a href="#pthreads">Pthreads</a></li>
+<li><a href="#omp">OpenMP</a></li>
+<li><a href="#cuda">CUDA</a></li>
+<li><a href="#nvidia">NVIDIA CUDA Lectures</a></li>
+<li><a href="#mpi">MPI</a></li>
+</ul>
+
+<h3><div id="pthreads"><a href="https://github.com/EricDarve/cme213_material_2013/blob/master/Lecture_slides/Pthreads/Lecture%201.pdf?raw=true">Lecture 1</a></div></h3>
 
 <p>Topics: introduction; syllabus; why we need parallelism; example of parallel program: summing up numbers</p>
 
 <p>Shared memory and multicore processors</p>
 
-<p>Introduction to Pthreads</p>
+<p>Introduction to <strong>Pthreads</strong></p>
 
-<h3>Lecture 2</h3>
+<h3><a href="https://github.com/EricDarve/cme213_material_2013/blob/master/Lecture_slides/Pthreads/Lecture%202.pdf?raw=true">Lecture 2</a></h3>
 
-<p>Topics: Phreads; creating and joining threads; example: multiplication of two matrices; Mutexes; example: dot product</p>
+<p>Topics: <strong>Pthreads</strong>; creating and joining threads; example: multiplication of two matrices; Mutexes; example: dot product</p>
 
-<h3>Lecture 3</h3>
+<h3><a href="https://github.com/EricDarve/cme213_material_2013/blob/master/Lecture_slides/OpenMP/Lecture%203.pdf?raw=true">Lecture 3</a></h3>
 
 <p>Topics: condition variables; example of a pizza restaurant and delivery; example with code sample
 </p>
 
-<p>OpenMP; introduction; parallel regions
+<p><strong>OpenMP</strong>; introduction; parallel regions
 </p>
 
-<h3>Lecture 4</h3>
+<h3><div id="omp"><a href="https://github.com/EricDarve/cme213_material_2013/blob/master/Lecture_slides/OpenMP/Lecture%204.pdf?raw=true">Lecture 4</a></div></h3>
 
-<p>Topics: OpenMP; parallel for loops; matrix multiplication; sections; single; tasks; master; critical; barrier; atomic; data sharing attributes; reduction clause
+<p>Topics: <strong>OpenMP</strong>; parallel for loops; matrix multiplication; sections; single; tasks; master; critical; barrier; atomic; data sharing attributes; reduction clause
 </p>
 
-<h3>Lecture 5</h3>
+<h3><a href="https://github.com/EricDarve/cme213_material_2013/blob/master/Lecture_slides/OpenMP/Lecture%205.pdf?raw=true">Lecture 5</a></h3>
 
-<p>Topics: fast multipole method; OpenMP and Pthreads implementations
+<p>Topics: fast multipole method; <strong>OpenMP</strong> and <strong>Pthreads</strong> implementations
 </p>
 
-<h3>Lecture 6</h3>
+<h3><div id="cuda"><a href="https://github.com/EricDarve/cme213_material_2013/blob/master/Lecture_slides/CUDA/Lecture%206.pdf?raw=true">Lecture 6</a></div></h3>
 
-<p>Topics: CUDA; threading model, basic commands, simple example programs, threads, blocks; timing; basic debugging techniques / printf / how nvcc works; unary function using templates
+<p>Topics: <strong>CUDA</strong>; threading model, basic commands, simple example programs, threads, blocks; timing; basic debugging techniques / printf / how nvcc works; unary function using templates
 </p>
 
-<h3>Lecture 7</h3>
+<h3><a href="https://github.com/EricDarve/cme213_material_2013/blob/master/Lecture_slides/CUDA/Lecture%207.pdf?raw=true">Lecture 7</a></h3>
 
 <p>Topics: warps; coalescing and performance impact; caching; shared memory; bank conflicts; example of matrix transpose
 </p>
 
-<h3>Lecture 8</h3>
+<h3><a href="https://github.com/EricDarve/cme213_material_2013/blob/master/Lecture_slides/CUDA/Lecture%208.pdf?raw=true">Lecture 8</a></h3>
 
 <p>Topics: reduce and scan algorithms; Work complexity vs. step complexity.</p>
 
@@ -106,9 +145,64 @@ You can find the lecture slides in the folder <tt>Lecture_slides/</tt>.
 
 <p>There are no slides for this lecture.</p>
 
-<h3>Lecture 9</h3>
+<h3><a href="https://github.com/EricDarve/cme213_material_2013/blob/master/Lecture_slides/CUDA/Lecture%209.pdf?raw=true">Lecture 9</a></h3>
 
-<p>Topics: focus of lecture is on homework 3; finite-difference stencil; algorithm based on global memory; loop over y to increase data-reuse and arithmetic intensity; shared memory algorithm
+<p>Topics: <strong>CUDA</strong>; reduction algorithm; warp; thread-block; use of atomics
+</p>
+
+<h3><a href="https://github.com/EricDarve/cme213_material_2013/blob/master/Lecture_slides/CUDA/Lecture%2010.pdf?raw=true">Lecture 10</a></h3>
+
+<p>Topics: floating point numbers; matrix-vector products; how to optimize the memory access; study of different cases: small and large matrices; tall and fat matrices
+</p>
+
+<h3><a href="https://github.com/EricDarve/cme213_material_2013/blob/master/Lecture_slides/CUDA/Lecture%2011.pdf?raw=true">Lecture 11</a></h3>
+
+<p>Topics: discussion of <strong>Thrust</strong>; segmented algorithms; examples of problems that can be broken into Thrust algorithms
+</p>
+
+<h3><div id="nvidia"><a href="https://github.com/EricDarve/cme213_material_2013/blob/master/Lecture_slides/NVIDIA/Lecture%2012%20Streams%20and%20Concurrency.pdf?raw=true">Lecture 12</a></div></h3>
+
+<p><strong>Steve Rennich from NVIDIA.</strong> Introduction to streams; increasing the concurrency; running concurrently memory transfers and kernels
+</p>
+
+<h3><div id="nvidia"><a href="https://github.com/EricDarve/cme213_material_2013/blob/master/Lecture_slides/NVIDIA/Lecture%2013%20OpenACC.pdf?raw=true">Lecture 13</a></h3>
+
+<p><strong>Justin Luitjens from NVIDIA.</strong> OpenACC
+</p>
+
+<h3><div id="nvidia"><a href="https://github.com/EricDarve/cme213_material_2013/blob/master/Lecture_slides/NVIDIA/Lecture%2014%20CUDA%20Profiler.pdf?raw=true">Lecture 14</a></h3>
+
+<p><strong>David Goodwin from NVIDIA.</strong> The CUDA nvvp profiler.
+</p>
+
+<h3><div id="nvidia"><a href="https://github.com/EricDarve/cme213_material_2013/blob/master/Lecture_slides/NVIDIA/Lecture%2015%20Sean%20Baxter%20Load%20balancing%20search.pdf?raw=true">Lecture 15</a></h3>
+
+<p><strong>Sean Baxter from NVIDIA.</strong> Merge in merge-sort algorithms; merge-like operations. Load-balancing search.
+</p>
+
+<h3><div id="mpi"><a href="https://github.com/EricDarve/cme213_material_2013/blob/master/Lecture_slides/MPI/Lecture%2016.pdf?raw=true">Lecture 16</a></div></h3>
+
+<p>Topics: <strong>MPI</strong>; introduction to message-passing; point-to-point communication.
+</p>
+
+<h3><a href="https://github.com/EricDarve/cme213_material_2013/blob/master/Lecture_slides/MPI/Lecture%2017.pdf?raw=true">Lecture 17</a></h3>
+
+<p>Topics: deadlocks; blocking vs non-blocking; synchronous vs non-synchronous; introduction to collective communication
+</p>
+
+<h3><a href="https://github.com/EricDarve/cme213_material_2013/blob/master/Lecture_slides/MPI/Lecture%2018.pdf?raw=true">Lecture 18</a></h3>
+
+<p>Topics: collective communication; matrix-vector product; groups, communicators
+</p>
+
+<h3><a href="https://github.com/EricDarve/cme213_material_2013/blob/master/Lecture_slides/MPI/Lecture%2019.pdf?raw=true">Lecture 19</a></h3>
+
+<p>Topics: virtual topologies; application to matrix-vector product with 2D partitioning; introduction to performance metrics; speed-up, efficiency; Amdahl’s law
+</p>
+
+<h3><a href="https://github.com/EricDarve/cme213_material_2013/blob/master/Lecture_slides/MPI/Lecture%2020.pdf?raw=true">Lecture 20</a></h3>
+
+<p>Topics: performance metrics; example: dot-product; efficiency and iso-efficiency; matrix-vector product with 1D and 2D partitioning; matrix-matrix products; Cannon and DNS algorithms.
 </p>
 
       </section>
