@@ -150,6 +150,11 @@ tt {
   font-size: 14px;
 }
 
+#topic {
+  text-decoration: underline;
+  display: inline;
+}
+
 /*
 img {
   position: relative;
